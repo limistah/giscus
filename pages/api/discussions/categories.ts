@@ -4,6 +4,8 @@ import { ICategories, IError } from '../../../lib/types/adapter';
 import { getAppAccessToken } from '../../../services/github/getAppAccessToken';
 import { getDiscussionCategories } from '../../../services/github/getDiscussionCategories';
 
+export const config = { runtime: 'edge' };
+
 export default async function DiscussionCategoriesApi(
   req: NextApiRequest,
   res: NextApiResponse<ICategories | IError>,

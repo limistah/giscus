@@ -5,6 +5,8 @@ import { env } from '../../../lib/variables';
 const GITHUB_OAUTH_ACCESS_TOKEN_URL = 'https://github.com/login/oauth/access_token';
 const TOKEN_VALIDITY_PERIOD = 1000 * 60 * 60 * 24 * 365; // 1 year;
 
+export const config = { runtime: 'edge' };
+
 export default async function OAuthAuthorizedApi(req: NextApiRequest, res: NextApiResponse) {
   const code = req.query.code as string;
   const state = req.query.state as string;

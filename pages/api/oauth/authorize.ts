@@ -4,6 +4,8 @@ import { env } from '../../../lib/variables';
 
 const GITHUB_OAUTH_AUTHORIZE_URL = 'https://github.com/login/oauth/authorize';
 
+export const config = { runtime: 'edge' };
+
 export default async function OAuthAuthorizeApi(req: NextApiRequest, res: NextApiResponse) {
   const appReturnUrl = req.query.redirect_uri as string;
 

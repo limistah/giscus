@@ -9,6 +9,8 @@ import { addCorsHeaders } from '../../../lib/cors';
 import { digestMessage } from '../../../lib/utils';
 import { check } from '../../../services/github/oauth';
 
+export const config = { runtime: 'edge' };
+
 async function get(req: NextApiRequest, res: NextApiResponse<IGiscussion | IError>) {
   const params = {
     repo: req.query.repo as string,
