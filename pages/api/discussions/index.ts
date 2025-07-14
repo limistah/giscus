@@ -9,7 +9,7 @@ import { addCorsHeaders } from '../../../lib/cors';
 import { digestMessage } from '../../../lib/utils';
 import { check } from '../../../services/github/oauth';
 
-export const config = { runtime: 'edge' };
+export const config = { runtime: 'nodejs' };
 
 async function get(req: NextApiRequest, res: NextApiResponse<IGiscussion | IError>) {
   const params = {

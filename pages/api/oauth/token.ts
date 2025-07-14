@@ -4,7 +4,7 @@ import { decodeState } from '../../../lib/oauth/state';
 import { ITokenRequest } from '../../../lib/types/giscus';
 import { addCorsHeaders } from '../../../lib/cors';
 
-export const config = { runtime: 'edge' };
+export const config = { runtime: 'nodejs' };
 
 export default async function OAuthTokenApi(req: NextApiRequest, res: NextApiResponse) {
   addCorsHeaders(req, res);
