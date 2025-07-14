@@ -2642,7 +2642,7 @@ lodash@^4.17.20:
 
 loose-envify@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
@@ -3359,15 +3359,15 @@ postcss@^8.4.47, postcss@^8.4.49:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-preact-render-to-string@^6.5.12:
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.12.tgz#57578b652d50294ae8084650e144e83a2bdb2217"
-  integrity sha512-FpU7/cRipZo4diSWQq7gZWVp+Px76CtVduJZNvQwVzynDsAIxKteMrjCCGPbM2oEasReoDffaeMCMlaur9ohIg==
+preact-render-to-string@^6.5.13:
+  version "6.5.13"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.13.tgz#cb9eb4a0df3576e7bfd78ef5f3d3bd57480e79ee"
+  integrity sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==
 
-preact@^10.23.2:
-  version "10.23.2"
-  resolved "https://registry.npmjs.org/preact/-/preact-10.23.2.tgz#52deec92796ae0f0cc6b034d9c66e0fbc1b837dc"
-  integrity sha512-kKYfePf9rzKnxOAKDpsWhg/ysrHPqT+yQ7UW4JjdnqjFIeNUnNcEJvhuA8fDenxAGWzUqtd51DfVg7xp/8T9NA==
+preact@^10.26.9:
+  version "10.26.9"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.26.9.tgz#b3898d1b65140640799062ad73b89846c293b6a7"
+  integrity sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -3420,10 +3420,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-"react-dom@npm:@preact/compat", "react@npm:@preact/compat":
-  version "17.1.1"
-  resolved "https://registry.npmjs.org/@preact/compat/-/compat-17.1.1.tgz#60a657ffe7d9830ceefc7ae44fcfce589c5acf23"
-  integrity sha512-OjQJ6oVcjFTiKWs4MIoE/cORFFGhqnt1RO0uxGNAFUglBMPNahMDJyX5w+qEOEaOpaNTLM1L3ixc2bFEpxgs3A==
+"react-dom@npm:@preact/compat":
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/@preact/compat/-/compat-18.3.1.tgz#9eddfe25eb1002f97a6a88fe4e9bcebe58136fe5"
+  integrity sha512-Kog4PSRxtT4COtOXjsuQPV1vMXpUzREQfv+6Dmcy9/rMk0HOPK0HTE9fspFjAmY8R80T/T8gtgmZ68u5bOSngw==
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -3434,6 +3434,11 @@ react-is@^16.13.1:
   version "1.2.0"
   resolved "https://registry.npmjs.org/preact-ssr-prepass/-/preact-ssr-prepass-1.2.0.tgz#f9c0545f18117971dcc6a09dbc3014067acce583"
   integrity sha512-UKz6FB2+KepjHQ6aGqiTUMZfGgdoTunxtByczdUNho9UvSRTJw31Np9J+wUSAlJ1kALJGX1BpcBLvO3iohQUSA==
+
+"react@npm:@preact/compat":
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/@preact/compat/-/compat-18.3.1.tgz#9eddfe25eb1002f97a6a88fe4e9bcebe58136fe5"
+  integrity sha512-Kog4PSRxtT4COtOXjsuQPV1vMXpUzREQfv+6Dmcy9/rMk0HOPK0HTE9fspFjAmY8R80T/T8gtgmZ68u5bOSngw==
 
 read-cache@^1.0.0:
   version "1.0.0"
